@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.web{
+    width:100%;
+    height:100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+    .pic1{
+        width:100%;
+        height:100%;
+        position: absolute;
+    }
+
+    .brand{
+        width:100%;
+        height:10%;
+        position: absolute;
+        top:6%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:blue;
+
+        h1{
+            font-size:50px;
+            font-family: "Playfair Display", serif;
+        }
+
+        i{
+            font-size:50px;
+            padding-left:5px;
+        }
+
+    }
+    
+    .card {
+        width:35%;
+        height:35%;
+        position: absolute;
+        top:30%;
+        border-radius: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+
+        .search{
+            width:100%;
+            height:20%;
+            position: relative;
+            
+            .input{
+                width:40%;
+                height:100%;
+                border-radius:50px;
+                padding-left:30px;
+                border:0;
+                outline: 0;
+                font-size:20px;
+                position: absolute;
+                left: 0;
+            }
+            
+            .button{
+                width:25%;
+                height:100%;
+                border-radius: 50px;
+                cursor: pointer;
+                position: absolute;
+                left:60%;
+                
+            }
+        }
+
+        .weather{
+            width:100%;
+            height:55%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            h1{
+                font-size:40px;
+                font-family: "Roboto", sans-serif;
+            }
+
+            h2{
+                font-size:30px;
+                font-family: "Playfair Display", serif;
+            }
+
+            h3{
+                font-family:20px;
+                font-family: "Charis SIL", serif;
+            }
+        }
+    }
+}
